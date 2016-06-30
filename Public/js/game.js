@@ -24,6 +24,10 @@ var isConnected = false
 
 function create () {
   /* initialize socket */
+  var ws = new SockJS("/socket");
+  socket = Stomp.over(ws);
+
+
 
   // Resize our game world to be a 2000 x 2000 square
   game.world.setBounds(-500, -500, 1000, 1000)
@@ -57,6 +61,8 @@ function create () {
   cursors = game.input.keyboard.createCursorKeys()
 
   /* connect socket */
+  socket.connect({}, onSocketConnected);
+
 }
 
 // Socket connected
@@ -76,7 +82,10 @@ function onSocketConnected () {
   console.log(socket)
 
   /* subscribe to /move */
+  socket.subscribe("/move", onMovePlayer);
+
   /* subscribe to /remove-player */
+  socket.subscribe("/remove-player", onRemovePlayer)
 }
 
 // Move player
@@ -164,6 +173,7 @@ function update () {
 
   if (isConnected) {
     /* send to /move */
+    socket.send("/move", {}, JSON.stringify({id: playerId, x: player.x, y: player.y}));
   }
 }
 
