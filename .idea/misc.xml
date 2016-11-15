@@ -38,8 +38,44 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../APitunes" value="1467933490000" />
+        <entry key="$PROJECT_DIR$/../AnonUpload" value="1467055310000" />
+        <entry key="$PROJECT_DIR$/../BeerTrackerSpring" value="1467218612000" />
+        <entry key="$PROJECT_DIR$/../ConcertTrackerSpring" value="1466715130000" />
+        <entry key="$PROJECT_DIR$/../DEMO" value="1478895756000" />
+        <entry key="$PROJECT_DIR$/../GameTrackerSpring1.0" value="1467213277000" />
+        <entry key="$PROJECT_DIR$/../H2Know" value="1467410806000" />
+        <entry key="$PROJECT_DIR$/../HannibalLecturer" value="1467320758000" />
+        <entry key="$PROJECT_DIR$/../HelloGame" value="5859499996000" />
+        <entry key="$PROJECT_DIR$/../HelloSpring" value="1466449214000" />
+        <entry key="$PROJECT_DIR$/../IronGram" value="1467140770000" />
+        <entry key="$PROJECT_DIR$/../MicroblogSpring" value="1466454134000" />
+        <entry key="$PROJECT_DIR$/../Minicraft" value="7324423800000" />
+        <entry key="$PROJECT_DIR$/../Purchases" value="1466626954000" />
+        <entry key="$PROJECT_DIR$/../RegistrationFormSpring" value="1467052902000" />
+        <entry key="$PROJECT_DIR$/../RestaurantGraveyard" value="1475532894000" />
+        <entry key="$PROJECT_DIR$/../SuperKoalio" value="5859519960000" />
+        <entry key="$PROJECT_DIR$/../TheYada" value="1468875788000" />
+        <entry key="$PROJECT_DIR$" value="1467312144000" />
+        <entry key="$PROJECT_DIR$/../YADACOMPARE" value="1469217476000" />
+        <entry key="$PROJECT_DIR$/../calendar.spring" value="1466709426000" />
+        <entry key="$PROJECT_DIR$/../restaurantTrackerSpring" value="1466532550000" />
+        <entry key="$PROJECT_DIR$/../yelpApi" value="1477078194000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
